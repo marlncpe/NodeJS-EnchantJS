@@ -151,6 +151,9 @@ Player = enchant.Class.create(Tank, {
 Enemy = enchant.Class.create(Tank, {
     initialize: function(uid,x,y) {
         Tank.call(this, uid, x, y);
+        this.addEventListener('enterframe', function(){
+            this.frame = this.ff + (this.age % this.fm);
+        });
     },
     toDown: function() {
       this.ff = 3;
