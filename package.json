@@ -1,13 +1,13 @@
 {
-  "name": "mygame",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app"
-  },
-  "dependencies": {
-    "express": "2.5.11",
-    "jade": "*",
-    "socket.io": "*"
+    "name": "mygame"
+  , "version": "0.0.1"
+  , "private": true
+  , "scripts": {
+      "start": "node app"
+  }
+  , "dependencies": {
+      "express": "2.5.11"
+    , "jade": "0.0.1"
+    , "socket.io": "*"
   }
 }
