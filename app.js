@@ -8,7 +8,7 @@ var express = require('express')
   , path = require('path')
   , io = require('socket.io');
 
-var app = express()
+var app = express() 
   , server = require('http').createServer(app)
   , io = io.listen(server);
 
